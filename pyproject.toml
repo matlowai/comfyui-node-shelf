@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-node-shelf"
+description = "Hide node packs, or single nodes, you don't use from ComfyUI's node search, node library and Add Node menu. They stay installed, so workflows that use them still load and run."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/matlowai/comfyui-node-shelf"
+
+[tool.comfy]
+PublisherId = "matlowai"
+DisplayName = "Node Shelf"
+Icon = ""
